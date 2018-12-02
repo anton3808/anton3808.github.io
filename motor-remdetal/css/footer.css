@@ -1,0 +1,102 @@
+/*---------------------Footer---------------------------*/
+.wrapper_footer{
+	width: 100%;
+	height: 285px;
+	background-color:#090b0c;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper_footer footer{
+	width: 1023px;
+	height: 160px;
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper_footer footer .left_block{
+	width: 27%;
+}
+.wrapper_footer footer .left_block .about_block{
+	height: 78px;
+	border-bottom: 2px solid #6001e9;
+}
+.wrapper_footer footer .left_block .about_block #domen{
+	font-family: 'OpenSans Bold';
+	font-size: 18px;
+	color: #0db2ee;
+	display: block;
+	margin-bottom: 8px;
+}
+.wrapper_footer footer .left_block .about_block #what_works{
+	font-family: 'OpenSans Regular';
+	font-size: 14px;
+	color: #7b7b7c;
+	line-height: 0.9;
+}
+.wrapper_footer footer .left_block .contancts_block #adresa{
+	font-family: 'OpenSans Regular';
+	font-size: 14px;
+	display: block;
+	color: #fefefe;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.wrapper_footer footer .left_block .contancts_block #phone{
+	font-family: 'OpenSans Regular';
+	font-size: 14px;
+	color: #fefefe;
+}
+
+
+
+.wrapper_footer footer .right_block{
+	width: 65%;
+	position: relative;
+}
+.wrapper_footer footer .right_block nav ul{
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	font-family: 'OpenSans SemiBold';
+	font-size: 14px;
+}
+.wrapper_footer footer .right_block nav ul a{
+	color: #fefefe;
+}
+.wrapper_footer footer .right_block nav ul a:hover{
+	color: #0db2ee;
+	transition: .5s;
+}
+.wrapper_footer footer .right_block .link_to_work:hover{
+	color: #08b9f8;
+	border: 3px solid #fefefe;
+	transition: .4s;
+	cursor: pointer;
+}
+.wrapper_footer footer .right_block .link_to_work{
+	text-transform: uppercase;
+	font-family: 'OpenSans SemiBold';
+	font-size: 14px;
+	color: #cfcfd0;
+	border: 3px solid #6900ff;
+	border-radius: 10px;
+	width: 320px;	
+	height: 50px;	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+	position: absolute;
+	bottom: 0;	
+	left: 0;	
+}
+.wrapper_footer footer .right_block .link_to_work span{
+	margin-left: 20px;	
+}
+.wrapper_footer footer .right_block .link_to_work #row_to_right{
+	font-family: 'OpenSans SemiBold';
+	font-size: 45px;
+	display: block;
+	height: 70px;	
+	margin-right: 20px;	
+}
+/*---------------------The End Footer---------------------------*/

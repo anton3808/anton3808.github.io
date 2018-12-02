@@ -1,0 +1,263 @@
+main .services_part{
+	width: 100%;
+	height: 2750px;
+}
+main .services_part h2{
+	font-family: 'OpenSans Bold';
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 50px;
+}
+main .services_part .wrapper_block_services{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+
+
+
+main .services_part .wrapper_block_services .crankshafts{
+	background-color: #dddde6;
+	border-radius: 10px;
+	width: 300px;	
+	height: 225px;	
+	position: relative;
+	overflow: hidden;
+}
+main .services_part .wrapper_block_services .crankshafts h3{
+	font-family: 'OpenSans Regular';
+	font-size: 20px;	
+	margin-left: 70px;	
+	margin-top: 20px;	
+}
+main .services_part .wrapper_block_services .crankshafts img{
+	margin-top: 55px;	
+	margin-left: 60px;	
+}
+
+
+
+
+main .services_part .wrapper_block_services .cylinder_blocks{
+	background-color: #dddde6;
+	border-radius: 10px;
+	width: 300px;
+	height: 225px;	
+	position: relative;
+	overflow: hidden;
+}
+main .services_part .wrapper_block_services .cylinder_blocks h3{
+	font-family: 'OpenSans Regular';
+	font-size: 20px;	
+	margin-left: 70px;	
+	margin-top: 20px;	
+}
+main .services_part .wrapper_block_services .cylinder_blocks img{
+	margin-top: 40px;	
+	margin-left: 60px;	
+}
+
+
+
+
+
+main .services_part .wrapper_block_services .block_head{
+	background-color: #dddde6;
+	border-radius: 10px;
+	width: 300px;
+	height: 225px;	
+	position: relative;
+	overflow: hidden;
+}
+main .services_part .wrapper_block_services .block_head h3{
+	font-family: 'OpenSans Regular';
+	font-size: 20px;	
+	margin-left: 30px;	
+	margin-top: 20px;	
+}
+main .services_part .wrapper_block_services .block_head img{
+	margin-top: 30px;	
+	margin-left: 60px;	
+}
+
+
+
+
+.descr a, .descr2 a{
+	color: #0db2ee;
+	border: 2px solid #6900ff;
+	padding: 10px;
+}
+.descr2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 9px;
+	background-color: rgba(0,0,0,.8);
+	font-family: 'OpenSans Regular';
+	font-size: 20px;
+	text-align: center;
+	padding-top: 95px;
+	opacity: 0;
+	transform: rotateZ(90deg);
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.descr{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 9px;
+	background-color: rgba(0,0,0,.8);
+	font-family: 'OpenSans Regular';
+	font-size: 20px;
+	text-align: center;
+	padding-top: 95px;
+	opacity: 0;
+	top: 100%;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.cylinder_blocks:hover .descr2{
+	opacity: 1;
+	top: 0;
+	transform: rotateZ(0deg);
+}
+.crankshafts:hover .descr{
+	opacity: 1;
+	top: 0;
+}
+.block_head:hover .descr{
+	opacity: 1;
+	top: 0;
+}
+
+
+
+
+
+.crankshafts_work{
+	height: 800px;
+	width: 100%;
+	margin-bottom: 100px;
+	/*background-color: #4B4B4B;*/
+	/*background-color: #3c4855;*/
+	background-color: #2a2b2c;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.cylinder_blocks_work, .block_head_work{
+	height: 600px;
+	width: 100%;
+	margin-bottom: 100px;
+	/*background-color: #4B4B4B;*/
+	/*background-color: #3c4855;*/
+	background-color: #2a2b2c;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.crankshafts_work h3, .cylinder_blocks_work h3, .block_head_work h3{
+	font-family: 'OpenSans Bold';
+	font-size: 26px;
+	color: #08b9f8;
+	text-align: center;
+	margin-bottom: 35px;
+	margin-top: 20px;
+}
+.crankshafts_work h4, .cylinder_blocks_work h4, .block_head_work h4{
+	font-family: 'OpenSans Bold';
+	font-size: 19px;
+	color: #dedede;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.crankshafts_work ul, .cylinder_blocks_work ul, .block_head_work ul{
+	font-family: 'OpenSans Regular';
+	font-size: 15px;
+	color: #fff;
+}
+.crankshafts_work ul li, .cylinder_blocks_work ul li, .block_head_work ul li{
+	text-decoration: none;
+	list-style-type: disc;
+	margin-left: 100px;
+	margin-top: 15px;
+}
+.crankshafts_work ol{
+	font-family: 'OpenSans Regular';
+	font-size: 14px;
+	color: #fff;
+}
+.crankshafts_work h5{
+	font-family: 'OpenSans SemiBold';
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.crankshafts_work ol li{
+	list-style-type: decimal;
+	margin-left: 100px;
+	margin-top: 6px;
+}
+
+
+
+
+
+
+
+.about_crankshafts, .about_head_block, .about_cylinder{
+	display: flex;
+	justify-content: space-around;
+}
+.about_crankshafts img, .about_head_block img, .about_cylinder img{
+	margin-left: 30px;
+}
+.about_crankshafts p, .about_head_block p, .about_cylinder p{
+	width: 55%;
+	font-family: 'OpenSans Regular';
+	font-size: 15px;
+	color: #fff;
+	margin-right: 20px;
+	text-align: justify;
+}
+.about_crankshafts b, .about_head_block b, .about_cylinder b{
+	width: 60%;
+	font-family: 'OpenSans Bold';
+	font-size: 16px;
+	color: #fff;
+	padding-left: 25px;	
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------Contact----------------*/
+.contact_part{
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+

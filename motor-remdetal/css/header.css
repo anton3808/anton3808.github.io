@@ -1,0 +1,60 @@
+/*---------------------Header---------------------------*/
+.wrapper_header{
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto 940px auto;
+}
+.wrapper_header aside{
+	background-color: #242424;
+	height: 120px;
+}
+.wrapper_header header{
+	width: 940px;
+	height: 120px;
+	background-color: #242424;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wrapper_header header .title_company_header{
+	font-size: 20px;
+	font-family: 'OpenSans Bold';
+	color: #ffffff;
+}
+.wrapper_header header .title_company_header a{
+	color: #ffffff;
+}
+.wrapper_header header .title_company_header b{
+	padding: 10px;
+	background-color: #05bcfb;
+	font-family: 'OpenSans Bold';
+	font-size: 22px;
+	color: #000a0d;
+}
+.wrapper_header header .contact_block_header{
+	font-family: 'OpenSans SemiBold';
+	color: #6900ff;
+	font-size: 16px;
+}
+.wrapper_header header .contact_block_header #call_me{
+	font-size: 14px;
+	border-bottom: 2px solid #6900ff;
+	padding-bottom: 3px;
+	color: #08b9f8;
+}
+.wrapper_header header .contact_block_header #call_me:hover{
+	color: #fefefe;
+	cursor: pointer;
+}
+.wrapper_header header .contact_block_header #phone{
+	font-family: 'OpenSans SemiBold';
+	font-size: 16px;
+	color: #fff;
+	vertical-align: middle;
+}
+.wrapper_header header .contact_block_header #palka{
+	color: #6900ff;
+	font-size: 16px;
+	margin-right: 3px;
+	margin-left: 3px;
+}

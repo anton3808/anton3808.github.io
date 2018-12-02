@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	background-color: #242424;
+}
+
+
+
+
+
+/*---------------------Main Part Of Index Page---------------------------*/
+@media (min-width: 760px) and (max-width: 940px){
+	.wrapper_main{
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto 760px auto;
+	}
+	.wrapper_main main .photo_baner_wrapper{
+		width: 760px;	
+		height: 624px;	
+		margin: 0 auto;
+		position: relative;
+	}
+}
+
+
+.wrapper_main{
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto 940px auto;
+}
+.wrapper_main aside{
+	background-color: #242424;
+	min-height: 1324px;
+	max-height: 1500px;
+}
+.wrapper_main main .photo_baner_wrapper{
+	width: 100%;	
+	height: 624px;	
+	margin: 0 auto;
+	position: relative;
+}
+.wrapper_main main .photo_baner_wrapper .photo_baner{
+	width: 100%;	
+	height: 624px;	
+	margin: 0 auto;
+	background-image: url(../img/car-engine-top.png);
+	position: relative;
+	z-index: -2;
+}
+.wrapper_main main .photo_baner_wrapper .photo_baner .shadow_photo{
+	width: 100%;	
+	height: 624px;
+	background-color: #3772b0;
+	opacity: .8;
+	z-index: -1;	
+	position: absolute;
+	left: -440px;	
+	top: -150px;
+	transform: rotate(130deg);
+}
+.wrapper_main main .photo_baner_wrapper .photo_baner .photo_title{
+	font-family: 'OpenSans Bold';
+	font-size: 30px;
+	color: #ffffff;
+	width: 375px;
+	padding-top: 150px;
+	padding-left: 20px;
+}
+.wrapper_main main .photo_baner_wrapper nav{
+	height: 180px;	
+	width: 100%;
+	position: absolute;
+	bottom: 0;	
+	left: 0;		
+	display: grid;
+	grid-template-columns: 188px 188px 188px 188px 189px;
+}
+.wrapper_main main .photo_baner_wrapper nav img{
+	display: block;
+	margin-bottom: 10px;
+}
+.wrapper_main main .photo_baner_wrapper nav a{
+	background-color: #0c1622;
+	font-family: 'OpenSans Bold';
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper_main main .photo_baner_wrapper nav a:hover {
+	background-color: #32404d;
+	transition: .5s;
+}
+.wrapper_main main .photo_baner_wrapper nav #third_item{
+	background-color: #32404d;
+	color: #08b9f8;
+}
+
+
+
+
+.wrapper_main main .content_part{
+	background-color: #242424;
+	width: 100%;
+	min-height: 600px;
+}
+.wrapper_main main .content_part .our_services{
+	width: 940px;
+	height: 230px;
+	margin: 0 auto;
+	display: flex;
+	padding-top: 80px;
+}
+.wrapper_main main .content_part .our_services h1{
+	font-family: 'OpenSans Bold';
+	font-size: 24px;
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.wrapper_main main .content_part .our_services p{
+	font-family: 'OpenSans Regular';
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+.wrapper_main main .content_part .our_services #restavration{
+	border-right: 1px solid #08b9f8;
+	height: 150px;
+	padding-left: 10px;
+	padding-right: 30px;
+}
+.wrapper_main main .content_part .our_services #repair{
+	border-right: 1px solid #08b9f8;
+	height: 150px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.wrapper_main main .content_part .our_services #obslugu{
+	padding-left: 30px;
+	padding-right: 10px;
+}
+
+
+
+
+
+.wrapper_main main .content_part .repair_engine{
+	width: 940px;
+	min-height: 320px;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+.wrapper_main main .content_part .repair_engine h1{
+	font-family: 'OpenSans Bold';
+	font-size: 24px;
+	color: #ffffff;
+	display: block;
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.wrapper_main main .content_part .repair_engine img{
+	float: right;
+	margin-right: 150px;
+}
+.wrapper_main main .content_part .repair_engine #about_repair_engine{
+	background-color: #2a2b2c;
+	font-family: 'OpenSans Regular';
+	font-size: 14px;
+	padding: 20px;
+	width: 390px;
+	display: inline-block;
+}
+.wrapper_main main .content_part .repair_engine #about_repair_engine p{
+	margin-bottom: 23px;
+	color: #d3d3d3;
+}
+.wrapper_main main .content_part .repair_engine #about_repair_engine a{
+	color: #2aa8d7;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #6900ff;
+}
+
+
+.wrapper_main main .content_part .slider_block{
+	width: 90%;
+	margin-left: 7%;
+	margin-bottom: 80px;
+	margin-top: 75px;
+}
+.wrapper_main main .content_part .slider_block .sl_slide{
+	position: relative;
+}
+.wrapper_main main .content_part .slider_block h1{
+	position: absolute;
+	font-family: 'OpenSans Regular';
+	font-size: 35px;
+	color: #005294;
+	margin-left: 50px;
+	margin-top: 15px;
+}
+/*---------------------The End Main Part Of Index Page---------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title_about_page{
+	width: 100%;
+	height: 200px;
+}
+.title_about_page h1{
+	font-family: 'OpenSans Regular';
+	font-size: 24px;
+	color: #fefefe;
+	text-align: center;
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
