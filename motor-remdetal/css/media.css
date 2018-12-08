@@ -1,0 +1,795 @@
+@media (min-width: 500px) and (max-width: 760px){
+	.wrapper_header{
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto 500px auto;
+	}
+	.wrapper_header header{
+		width: 500px;
+		height: 120px;
+		background-color: #242424;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.wrapper_main{
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto 500px auto;
+	}
+	.wrapper_main main .photo_baner_wrapper{
+		width: 500px;	
+		height: 624px;	
+		margin: 0 auto;
+		position: relative;
+	}
+
+
+	.wrapper_main main .photo_baner_wrapper nav{
+		display: none;
+	}
+
+	.contact_block_header{
+		display: none;
+	}
+
+
+
+
+
+	.wrapper_main main .photo_baner_wrapper{	
+		height: 424px;	
+	}
+	.wrapper_main main .photo_baner_wrapper .photo_baner{
+		height: 424px;	
+	}
+	.wrapper_main main .photo_baner_wrapper .photo_baner .shadow_photo{
+		width: 100%;	
+		height: 674px;
+		background-color: #3772b0;
+		opacity: .8;
+		z-index: -1;	
+		position: absolute;
+		left: -155px;	
+		top: 70px;
+		transform: rotate(130deg);
+	}
+	.wrapper_main main .photo_baner_wrapper .photo_baner .photo_title{
+		font-family: 'OpenSans Bold';
+		font-size: 24px;
+		color: #ffffff;
+		width: 305px;
+		padding-top: 200px;
+		padding-left: 20px;
+	}
+
+
+	.wrapper_main main .content_part{
+		background-color: #242424;
+		width: 100%;
+		min-height: 600px;
+	}
+	.wrapper_main main .content_part .our_services{
+		width: 500px;
+		height: 830px;
+		margin: 0 auto;
+		display: grid;
+		padding-top: 80px;
+	}
+	.wrapper_main main .content_part .our_services #restavration{
+		border-right: none;
+		width: 250px;
+		height: 200px;
+		margin: 0 auto;
+		padding-left: 0px;
+		padding-right: 0px;
+		border-bottom: 1px solid #08b9f8;
+	}
+	.wrapper_main main .content_part .our_services #repair{
+		border-right: none;
+		width: 250px;
+		height: 200px;
+		margin: 0 auto;
+		padding-left: 0px;
+		padding-right: 0px;
+		border-bottom: 1px solid #08b9f8;
+	}
+	.wrapper_main main .content_part .our_services #obslugu{
+		width: 250px;
+		height: 180px;
+		margin: 0 auto;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+
+
+
+	.wrapper_main main .content_part .repair_engine{
+		width: 500px;
+		min-height: 320px;
+		margin: 0 auto;
+		margin-bottom: 90px;
+	}
+	.wrapper_main main .content_part .repair_engine h1{
+		font-family: 'OpenSans Bold';
+		font-size: 24px;
+		color: #ffffff;
+		display: block;
+		margin-top: 70px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.wrapper_main main .content_part .repair_engine img{
+		display: block;
+		margin: 0 auto;
+		float: none;
+		margin-top: 50px;
+	}
+	.wrapper_main main .content_part .repair_engine .about_repair_engine{
+		margin: 0 auto;
+		background-color: #2a2b2c;
+		font-family: 'OpenSans Regular';
+		font-size: 14px;
+		padding: 20px;
+		width: 390px;
+		height: auto;
+		display: block;
+	}
+
+
+
+
+	.wrapper_main main .content_part .slider_block{
+		width: 80%;
+		margin-left: 7%;
+		margin-bottom: 80px;
+		margin-top: 75px;
+	}
+
+
+
+
+
+	main .services_part{
+		width: 100%;
+		height: 3550px;
+	}
+	main .services_part h2{
+		font-family: 'OpenSans Bold';
+		font-size: 30px;
+		color: #ffffff;
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	main .services_part .wrapper_block_services{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-bottom: 100px;
+	}
+	main .services_part .wrapper_block_services article{
+		margin-bottom: 60px;
+	}
+
+
+	.crankshafts_work{
+		height: 800px;
+		width: 100%;
+		margin-bottom: 100px;
+		background-color: #2a2b2c;
+		border-radius: 15px;
+		overflow: hidden;
+	}
+	.cylinder_blocks_work, .block_head_work{
+		height: 700px;
+		width: 100%;
+		margin-bottom: 100px;
+		background-color: #2a2b2c;
+		border-radius: 15px;
+		overflow: hidden;
+	}
+	.crankshafts_work h3, .cylinder_blocks_work h3, .block_head_work h3{
+		font-family: 'OpenSans Bold';
+		font-size: 24px;
+		color: #08b9f8;
+		text-align: center;
+		margin-bottom: 35px;
+		margin-top: 20px;
+	}
+	.crankshafts_work h4, .cylinder_blocks_work h4, .block_head_work h4{
+		font-family: 'OpenSans Bold';
+		font-size: 18px;
+		color: #dedede;
+		text-align: center;
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+	.crankshafts_work ul, .cylinder_blocks_work ul, .block_head_work ul{
+		font-family: 'OpenSans Regular';
+		font-size: 14px;
+		color: #fff;
+	}
+	.crankshafts_work ul li, .cylinder_blocks_work ul li, .block_head_work ul li{
+		text-decoration: none;
+		list-style-type: disc;
+		margin-left: 50px;
+		margin-top: 15px;
+	}
+	.crankshafts_work ol{
+		font-family: 'OpenSans Regular';
+		font-size: 13px;
+		color: #fff;
+	}
+	.crankshafts_work h5{
+		font-family: 'OpenSans SemiBold';
+		font-size: 16px;
+		color: #fff;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.crankshafts_work ol li{
+		list-style-type: decimal;
+		margin-left: 50px;
+		margin-top: 6px;
+	}
+
+
+
+
+
+
+
+	.about_crankshafts img, .about_head_block img, .about_cylinder img{
+		float: left;
+		width: 190px;
+		height: 150px;
+		margin-left: 0px;
+		margin-bottom: 10px;
+		margin-right: 20px;
+	}
+	.about_crankshafts p, .about_head_block p, .about_cylinder p{
+		width: auto;
+		font-family: 'OpenSans Regular';
+		font-size: 13px;
+		color: #fff;
+		margin-right: 20px;
+		text-align: left;
+	}
+	.about_crankshafts b, .about_head_block b, .about_cylinder b{
+		width: auto;
+		font-family: 'OpenSans Bold';
+		font-size: 15px;
+		color: #fff;
+		padding-left: 25px;	
+	}
+
+	.about_crankshafts, .about_head_block, .about_cylinder{
+		width: 90%;
+		margin: 0 auto;
+		display: block;
+		justify-content: space-around;
+	}
+
+
+
+
+
+	iframe{
+		width: 500px;
+		height: 300px;
+	}
+
+
+
+
+	.wrapper_footer footer .left_block .about_block #domen{
+		font-family: 'OpenSans Bold';
+		font-size: 17px;
+		color: #0db2ee;
+		display: block;
+		margin-bottom: 8px;
+	}
+	.wrapper_footer footer .left_block .about_block #what_works{
+		font-family: 'OpenSans Regular';
+		font-size: 13px;
+		color: #7b7b7c;
+		line-height: 0.9;
+	}
+	.wrapper_footer footer .left_block .contancts_block #adresa{
+		font-family: 'OpenSans Regular';
+		font-size: 13px;
+		display: block;
+		color: #fefefe;
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.wrapper_footer footer .left_block .contancts_block #phone{
+		font-family: 'OpenSans Regular';
+		font-size: 13px;
+		color: #fefefe;
+	}
+
+
+	.wrapper_footer footer .left_block .about_block{
+		height: auto;
+		padding-bottom: 10px;
+		border-bottom: 2px solid #6001e9;
+	}
+
+
+
+	.wrapper_footer footer .right_block nav{
+		display: none;
+		justify-content: space-between;
+		text-transform: uppercase;
+		font-family: 'OpenSans SemiBold';
+		font-size: 14px;
+	}
+	.wrapper_footer footer .left_block{
+		width: 70%;
+		margin: 0 auto;
+		display: block;
+	}
+	.wrapper_footer footer .right_block{
+		margin-top: 30px;
+		width: 70%;
+		margin: 0 auto;
+		position: relative;
+	}
+	.wrapper_footer footer{
+		width: 500px;
+		height: 200px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 499px){
+	.wrapper_header{
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto 400px auto;
+	}
+	.wrapper_header header{
+		width: 400px;
+		height: 120px;
+		background-color: #242424;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.wrapper_main{
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto 400px auto;
+	}
+	.wrapper_main main .photo_baner_wrapper{
+		width: 400px;	
+		height: 624px;	
+		margin: 0 auto;
+		position: relative;
+	}
+
+
+	.wrapper_main main .photo_baner_wrapper nav{
+		display: none;
+	}
+
+	.contact_block_header{
+		display: none;
+	}
+
+
+
+
+
+	.wrapper_main main .photo_baner_wrapper{	
+		height: 400px;	
+	}
+	.wrapper_main main .photo_baner_wrapper .photo_baner{
+		height: 400px;	
+	}
+	.wrapper_main main .photo_baner_wrapper .photo_baner .shadow_photo{
+		width: 100%;	
+		height: 674px;
+		background-color: #3772b0;
+		opacity: .8;
+		z-index: -1;	
+		position: absolute;
+		left: -75px;	
+		top: 40px;
+		transform: rotate(130deg);
+	}
+	.wrapper_main main .photo_baner_wrapper .photo_baner .photo_title{
+		font-family: 'OpenSans Bold';
+		font-size: 24px;
+		color: #ffffff;
+		width: 305px;
+		padding-top: 170px;
+		padding-left: 20px;
+	}
+
+
+	.wrapper_main main .content_part{
+		background-color: #242424;
+		width: 100%;
+		min-height: 600px;
+	}
+	.wrapper_main main .content_part .our_services{
+		width: 400px;
+		height: 830px;
+		margin: 0 auto;
+		display: grid;
+		padding-top: 80px;
+	}
+	.wrapper_main main .content_part .our_services #restavration{
+		border-right: none;
+		width: 250px;
+		height: 200px;
+		margin: 0 auto;
+		padding-left: 0px;
+		padding-right: 0px;
+		border-bottom: 1px solid #08b9f8;
+	}
+	.wrapper_main main .content_part .our_services #repair{
+		border-right: none;
+		width: 250px;
+		height: 200px;
+		margin: 0 auto;
+		padding-left: 0px;
+		padding-right: 0px;
+		border-bottom: 1px solid #08b9f8;
+	}
+	.wrapper_main main .content_part .our_services #obslugu{
+		width: 250px;
+		height: 180px;
+		margin: 0 auto;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+
+
+
+	.wrapper_main main .content_part .repair_engine{
+		width: 400px;
+		min-height: 320px;
+		margin: 0 auto;
+		margin-bottom: 90px;
+	}
+	.wrapper_main main .content_part .repair_engine h1{
+		font-family: 'OpenSans Bold';
+		font-size: 23px;
+		color: #ffffff;
+		display: block;
+		margin-top: 70px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.wrapper_main main .content_part .repair_engine img{
+		display: block;
+		margin: 0 auto;
+		float: none;
+		margin-top: 50px;
+	}
+	.wrapper_main main .content_part .repair_engine .about_repair_engine{
+		margin: 0 auto;
+		background-color: #2a2b2c;
+		font-family: 'OpenSans Regular';
+		font-size: 13px;
+		padding: 20px;
+		width: 390px;
+		height: auto;
+		display: block;
+	}
+
+
+
+
+	.wrapper_main main .content_part .slider_block{
+		width: 80%;
+		margin-left: 7%;
+		margin-bottom: 80px;
+		margin-top: 75px;
+	}
+
+
+
+
+
+	main .services_part{
+		width: 100%;
+		height: auto;
+		margin-bottom: 100px;
+	}
+	main .services_part h2{
+		font-family: 'OpenSans Bold';
+		font-size: 29px;
+		color: #ffffff;
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	main .services_part .wrapper_block_services{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-bottom: 100px;
+	}
+	main .services_part .wrapper_block_services article{
+		margin-bottom: 60px;
+	}
+
+
+	.crankshafts_work{
+		height: auto;
+		width: 100%;
+		margin-bottom: 100px;
+		background-color: #2a2b2c;
+		border-radius: 15px;
+		overflow: hidden;
+		padding-bottom: 50px;
+	}
+	.cylinder_blocks_work, .block_head_work{
+		height: auto;
+		width: 100%;
+		margin-bottom: 100px;
+		background-color: #2a2b2c;
+		border-radius: 15px;
+		overflow: hidden;
+		padding-bottom: 50px;
+	}
+	.crankshafts_work h3, .cylinder_blocks_work h3, .block_head_work h3{
+		font-family: 'OpenSans Bold';
+		font-size: 23px;
+		color: #08b9f8;
+		text-align: center;
+		margin-bottom: 35px;
+		margin-top: 20px;
+	}
+	.crankshafts_work h4, .cylinder_blocks_work h4, .block_head_work h4{
+		font-family: 'OpenSans Bold';
+		font-size: 17px;
+		color: #dedede;
+		text-align: center;
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+	.crankshafts_work ul, .cylinder_blocks_work ul, .block_head_work ul{
+		font-family: 'OpenSans Regular';
+		font-size: 13px;
+		color: #fff;
+	}
+	.crankshafts_work ul li, .cylinder_blocks_work ul li, .block_head_work ul li{
+		text-decoration: none;
+		list-style-type: disc;
+		margin-left: 50px;
+		margin-top: 15px;
+	}
+	.crankshafts_work ol{
+		font-family: 'OpenSans Regular';
+		font-size: 13px;
+		color: #fff;
+	}
+	.crankshafts_work h5{
+		font-family: 'OpenSans SemiBold';
+		font-size: 15px;
+		color: #fff;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.crankshafts_work ol li{
+		list-style-type: decimal;
+		margin-left: 50px;
+		margin-top: 6px;
+	}
+
+
+
+
+
+
+
+	.about_crankshafts img, .about_head_block img, .about_cylinder img{
+		float: left;
+		width: 190px;
+		height: 150px;
+		margin-left: 0px;
+		margin-bottom: 10px;
+		margin-right: 20px;
+	}
+	.about_crankshafts p, .about_head_block p, .about_cylinder p{
+		width: auto;
+		font-family: 'OpenSans Regular';
+		font-size: 13px;
+		color: #fff;
+		margin-right: 20px;
+		text-align: left;
+	}
+	.about_crankshafts b, .about_head_block b, .about_cylinder b{
+		width: auto;
+		font-family: 'OpenSans Bold';
+		font-size: 15px;
+		color: #fff;
+		padding-left: 25px;	
+	}
+
+	.about_crankshafts, .about_head_block, .about_cylinder{
+		width: 90%;
+		margin: 0 auto;
+		display: block;
+		justify-content: space-around;
+	}
+
+
+
+
+
+
+
+
+
+
+	.form_part{
+		width: 100%;
+		height: 500px;
+		background-color: #2a2b2c;
+		margin-bottom: 100px;
+		border-radius: 5px;
+	}
+	.content_form{
+		width: 90%;
+		margin: 0 auto;
+	}
+	form h2{
+		font-family: 'OpenSans Bold';
+		font-size: 27px;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		color: #08b9f8;
+	}
+	.phone{
+		margin-top: 10px;
+	}
+	form section{
+		display: grid;
+		grid-template-columns: 40% 50%;
+		margin-bottom: 15px;
+	}
+	form section span{
+		font-family: 'OpenSans SemiBold';
+		font-size: 14px;
+		color: #d3d3d3;
+		margin-right: 12px;
+		text-align: right;
+		padding-top: 6px;
+	}
+	.button span {
+		display: block;
+		font-family: 'OpenSans Regular';
+		font-size: 10px;
+		margin-right: 0;
+		text-align: left;
+		color: #bababa;
+	}
+
+	form input{
+		height: 30px;	
+		width: 210px;	
+		border: 1px solid #d3d3d3;
+		border-radius: 5px;
+		padding-left: 10px;
+	}
+	form textarea{
+		border: 1px solid #d3d3d3;
+		border-radius: 5px;
+		width: 210px;	
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+
+	.button{
+		padding-top: 15px;
+	}
+
+	form .button input{
+		width: 150px;
+		height: 35px;
+		background-color: #404040;
+		color: #fff;
+		border: none;
+		margin-bottom: 5px;
+	}
+
+
+
+
+
+	iframe{
+		width: 400px;
+		height: 150px;
+	}
+
+
+
+
+	.wrapper_footer footer .left_block .about_block #domen{
+		font-family: 'OpenSans Bold';
+		font-size: 17px;
+		color: #0db2ee;
+		display: block;
+		margin-bottom: 8px;
+	}
+	.wrapper_footer footer .left_block .about_block #what_works{
+		font-family: 'OpenSans Regular';
+		font-size: 13px;
+		color: #7b7b7c;
+		line-height: 0.9;
+	}
+	.wrapper_footer footer .left_block .contancts_block #adresa{
+		font-family: 'OpenSans Regular';
+		font-size: 13px;
+		display: block;
+		color: #fefefe;
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.wrapper_footer footer .left_block .contancts_block #phone{
+		font-family: 'OpenSans Regular';
+		font-size: 13px;
+		color: #fefefe;
+	}
+
+
+	.wrapper_footer footer .left_block .about_block{
+		height: auto;
+		padding-bottom: 10px;
+		border-bottom: 2px solid #6001e9;
+	}
+
+
+
+	.wrapper_footer footer .right_block nav{
+		display: none;
+	}
+	.wrapper_footer footer .left_block{
+		width: 70%;
+		margin: 0 auto;
+		display: block;
+	}
+	.wrapper_footer footer .right_block{
+		margin-top: 30px;
+		width: 70%;
+		margin: 0 auto;
+		position: relative;
+	}
+	.wrapper_footer footer{
+		width: 400px;
+		height: 250px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+}
