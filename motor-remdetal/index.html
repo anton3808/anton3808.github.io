@@ -17,6 +17,11 @@
 	<link rel="stylesheet" href="slick/slick.css">
 
 
+
+	<!-- Media -->
+	<link rel="stylesheet" href="css/media.css">
+
+
 	<!-- Подключаем модальное окно-->
 	<link rel="stylesheet" href="remodal/remodal.css">
 	 <link rel="stylesheet" href="remodal/remodal-default-theme.css">
@@ -37,9 +42,23 @@
 			</header>
 
 
-			<div class="remodal" data-remodal-id="call_me_modal">
+			<div class="remodal remodalWindow" data-remodal-id="call_me_modal">
 	      <button data-remodal-action="close" class="remodal-close"></button>
-	      <h1>Hello</h1>
+	      <form action="#" name="MyForm" class="ModalForm" method="get">
+					<h2>Зворотній зв'язок</h2>
+					<div class="content_form">
+							<span>Ваш номер телефону:</span>
+							<input type="text" ip="phone" placeholder="+38(999) 999-9999" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required>
+						</section>
+						<section class="button">
+							<div class="empty"></div>
+							<div>
+								<input type="submit" value="Відправити">
+								<span>Дякую за звернення, ми з вам зателефонуємо протягом 12 годин!</span>
+							</div>
+						</section>
+					</div>
+				</form>
 	      <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
   			<button data-remodal-action="confirm" class="remodal-confirm">OK</button>
 	    </div>
@@ -104,7 +123,7 @@
 
 				<section class="repair_engine">
 					<h1>Якісний ремонт елементів двигуна</h1>
-					<article id="about_repair_engine">
+					<article class="about_repair_engine">
 						<p>Усі роботи проводяться згідно норм та правил вствновлених та досягненн отримати необхідні технічні параметри та якість. При не взмозі дотримати технічні параметри, проводиться пошук альтернативи за згодою клієнта.</p>
 						<a href="our_services.php">Узнать больше</a>
 					</article>	
@@ -229,7 +248,7 @@
 						</section>
 						<section>
 							<span>Ваш номер телефону:</span>
-							<input type="text" ip="phone" placeholder="+38(999) 999-9999" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required>
+							<input class="phone" type="text" ip="phone" placeholder="+38(999) 999-9999" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required>
 						</section>
 						<section class="text_area">
 							<span>Текст сообщенія:</span>
@@ -250,7 +269,7 @@
 
 
 			<div id="contact" class="contact_part">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.8139765947526!2d27.013642915375918!3d49.41242347934559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47320639a703819b%3A0xfcfdacbf472230af!2z0LLRg9C70LjRhtGPINCn0L7RgNC90L7QstC-0LvQsCwgMjEsIDXQsCwg0KXQvNC10LvRjNC90LjRhtGM0LrQuNC5LCDQpdC80LXQu9GM0L3QuNGG0YzQutCwINC-0LHQu9Cw0YHRgtGMLCAyOTAwMA!5e0!3m2!1suk!2sua!4v1537388028942" width="960" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.8139765947526!2d27.013642915375918!3d49.41242347934559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47320639a703819b%3A0xfcfdacbf472230af!2z0LLRg9C70LjRhtGPINCn0L7RgNC90L7QstC-0LvQsCwgMjEsIDXQsCwg0KXQvNC10LvRjNC90LjRhtGM0LrQuNC5LCDQpdC80LXQu9GM0L3QuNGG0YzQutCwINC-0LHQu9Cw0YHRgtGMLCAyOTAwMA!5e0!3m2!1suk!2sua!4v1537388028942"  frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 
 		</main>
