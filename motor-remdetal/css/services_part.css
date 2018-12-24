@@ -242,7 +242,10 @@ main .services_part .wrapper_block_services .block_head img{
 
 
 
-
+iframe{
+	width: 960px;
+	height: 500px;
+}
 
 
 
@@ -260,4 +263,8 @@ main .services_part .wrapper_block_services .block_head img{
 
 
 
-
+/*------------Modal Window-----------*/
+.remodalWindow{
+	width: 100%;
+	background-color: #2a2b2c;
+}

@@ -177,7 +177,7 @@ body{
 	float: right;
 	margin-right: 150px;
 }
-.wrapper_main main .content_part .repair_engine #about_repair_engine{
+.wrapper_main main .content_part .repair_engine .about_repair_engine{
 	background-color: #2a2b2c;
 	font-family: 'OpenSans Regular';
 	font-size: 14px;
@@ -185,11 +185,11 @@ body{
 	width: 390px;
 	display: inline-block;
 }
-.wrapper_main main .content_part .repair_engine #about_repair_engine p{
+.wrapper_main main .content_part .repair_engine .about_repair_engine p{
 	margin-bottom: 23px;
 	color: #d3d3d3;
 }
-.wrapper_main main .content_part .repair_engine #about_repair_engine a{
+.wrapper_main main .content_part .repair_engine .about_repair_engine a{
 	color: #2aa8d7;
 	padding-bottom: 3px;
 	border-bottom: 1px solid #6900ff;
