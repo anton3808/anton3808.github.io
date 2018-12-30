@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,6 +27,9 @@
 	<link rel="stylesheet" href="remodal/remodal.css">
 	 <link rel="stylesheet" href="remodal/remodal-default-theme.css">
 	<script src="remodal/remodal.min.js"></script>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="wrapper_header">
@@ -48,7 +52,7 @@
 					<h2>Зворотній зв'язок</h2>
 					<div class="content_form">
 							<span>Ваш номер телефону:</span>
-							<input type="text" ip="phone" placeholder="+38(999) 999-9999" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required>
+							<input type="text" ip="phone_bar" placeholder="+38(999) 999-9999" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required>
 						</section>
 						<section class="button">
 							<div class="empty"></div>
@@ -235,37 +239,39 @@
 
 
 			<div id="form" class="form_part">
-				<form action="#" name="MyForm" method="get">
+				<form id="myform">
 					<h2>Зворотній зв'язок</h2>
 					<div class="content_form">
 						<section>
 							<span>Контактна особа:</span>
-							<input type="text" placeholder="Або назва підприємства" required>
+							<input name="name" id="name" type="text" placeholder="Або назва підприємства" required>
 						</section>
 						<section>
 							<span>Ваш e-mail:</span>
-							<input type="email" placeholder="mail@gmail.com" required>
+							<input type="email" id="email" name="email" placeholder="mail@gmail.com" required>
 						</section>
 						<section>
 							<span>Ваш номер телефону:</span>
-							<input class="phone" type="text" ip="phone" placeholder="+38(999) 999-9999" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required>
+							<input type="text" id="phone" name="phone" placeholder="+38(999) 999-9999" required>
 						</section>
 						<section class="text_area">
 							<span>Текст сообщенія:</span>
-							<textarea rows="5" cols="50" name="text" placeholder="Я хочу щоб ви виконали роботу над колінчастим валом..." ></textarea>
+							<textarea rows="5" cols="50" name="message" id="message" placeholder="Я хочу щоб ви виконали роботу над колінчастим валом..." ></textarea>
 						</section>
 						<section class="button">
-							<div class="empty"></div>
+							<div class="result">
+							</div>
 							<div>
-								<input type="submit" value="Відправити">
+								<input type="submit" name="submit" class="send_form" value="Відправити">
 								<span>Дякую за звернення, ми з вам зателефонуємо протягом 12 годин!</span>
 							</div>
 						</section>
 					</div>
 				</form>
+				<div class="success_result">
+					Hello		
+				</div>
 			</div>
-
-
 
 
 			<div id="contact" class="contact_part">
@@ -315,7 +321,6 @@
 	<script src="remodal/remodal.min.js"></script>
 	<script src="slick/slick.js"></script>
 	<script src="js/script.js"></script>
-	
 
 </body>
 </html>

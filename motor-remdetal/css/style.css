@@ -247,7 +247,19 @@ body{
 
 
 
-
+.success_result{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width:20vw;
+	height: 30vh;
+	background-color: #0c1622;
+	font-family: 'OpenSans Bold';
+  font-size: 16px;
+  text-align: center;
+	color: #fff;
+	display: none;
+}
 
 
 
