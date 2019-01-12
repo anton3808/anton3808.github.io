@@ -19,19 +19,6 @@ body{
 
 
 /*---------------------Main Part Of Index Page---------------------------*/
-@media (min-width: 760px) and (max-width: 940px){
-	.wrapper_main{
-		width: 100%;
-		display: grid;
-		grid-template-columns: auto 760px auto;
-	}
-	.wrapper_main main .photo_baner_wrapper{
-		width: 760px;	
-		height: 624px;	
-		margin: 0 auto;
-		position: relative;
-	}
-}
 
 
 .wrapper_main{
@@ -247,19 +234,7 @@ body{
 
 
 
-.success_result{
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	width:20vw;
-	height: 30vh;
-	background-color: #0c1622;
-	font-family: 'OpenSans Bold';
-  font-size: 16px;
-  text-align: center;
-	color: #fff;
-	display: none;
-}
+
 
 
 

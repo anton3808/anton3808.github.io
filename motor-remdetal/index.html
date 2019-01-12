@@ -18,18 +18,19 @@
 	<link rel="stylesheet" href="slick/slick.css">
 
 
-
 	<!-- Media -->
 	<link rel="stylesheet" href="css/media.css">
 
 
-	<!-- Подключаем модальное окно-->
-	<link rel="stylesheet" href="remodal/remodal.css">
-	 <link rel="stylesheet" href="remodal/remodal-default-theme.css">
-	<script src="remodal/remodal.min.js"></script>
-
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+	     (adsbygoogle = window.adsbygoogle || []).push({
+	          google_ad_client: "ca-pub-7353609485125602",
+	          enable_page_level_ads: true
+	     });
+	</script>
 </head>
 <body>
 	<div class="wrapper_header">
@@ -41,31 +42,9 @@
 				</section>
 
 				<section class="contact_block_header">
-					<span id="phone">+38 (096)-017-54-70 <span id="palka">/</span> </span>  <span id="call_me" data-remodal-target="call_me_modal">перезвонить мне</span>
+					<span id="phone">+38 (096)-017-54-70 <span id="palka">/</span> </span>  <a href="javascript://0" onclick="slowScroll ('#form')" id="call_me" data-remodal-target="call_me_modal">перезвонить мне</a>
 				</section>
 			</header>
-
-
-			<div class="remodal remodalWindow" data-remodal-id="call_me_modal">
-	      <button data-remodal-action="close" class="remodal-close"></button>
-	      <form action="#" name="MyForm" class="ModalForm" method="get">
-					<h2>Зворотній зв'язок</h2>
-					<div class="content_form">
-							<span>Ваш номер телефону:</span>
-							<input type="text" ip="phone_bar" placeholder="+38(999) 999-9999" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required>
-						</section>
-						<section class="button">
-							<div class="empty"></div>
-							<div>
-								<input type="submit" value="Відправити">
-								<span>Дякую за звернення, ми з вам зателефонуємо протягом 12 годин!</span>
-							</div>
-						</section>
-					</div>
-				</form>
-	      <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
-  			<button data-remodal-action="confirm" class="remodal-confirm">OK</button>
-	    </div>
 
 		<aside></aside>
 	</div>
@@ -208,7 +187,7 @@
 					<ul>
 						<li>Дефектовка блока</li>
 						<li>Шліфовка площина блока</li>
-						<li>Поліровка колінчастого вала</li>
+						<li>Розточка коріного опорного колінвала</li>
 						<li>Шліфовка упорних поверхонь (воловий розбіг, тощо ...)</li>
 						<li>Реставрація поверхонь вала в заданний розмір та параметри.</li>
 					</ul>
@@ -263,14 +242,15 @@
 							</div>
 							<div>
 								<input type="submit" name="submit" class="send_form" value="Відправити">
-								<span>Дякую за звернення, ми з вам зателефонуємо протягом 12 годин!</span>
+								<span class="success_result"></span>
 							</div>
 						</section>
 					</div>
 				</form>
-				<div class="success_result">
+<!-- 				<button onclick="success()">Click me!</button>	 -->
+<!-- 				<div class="success_result">
 					Hello		
-				</div>
+				</div> -->
 			</div>
 
 

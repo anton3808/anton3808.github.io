@@ -1,3 +1,127 @@
+@media (min-width: 761px) and (max-width: 1000px){
+	/*.wrapper_header{
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto 760px auto;
+	}
+	.wrapper_main{
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto 760px auto;
+	}*/
+	.wrapper_header{
+		width: 100vw;
+		display: grid;
+		grid-template-columns: auto 90vw auto;
+	}
+	.wrapper_header header{
+		width: 90vw;
+		height: 120px;
+		background-color: #242424;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.wrapper_main{
+		width: 100vw;
+		display: grid;
+		grid-template-columns: auto 90vw auto;
+	}
+	.wrapper_main main .photo_baner_wrapper{
+		width: 90vw;	
+		height: 624px;	
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.wrapper_main main .photo_baner_wrapper{	
+		height: 624px;	
+	}
+	.wrapper_main main .photo_baner_wrapper .photo_baner{
+		height: 624px;	
+	}
+	.wrapper_main main .photo_baner_wrapper .photo_baner .shadow_photo{
+		width: 400px;	
+		height: 700px;
+		background-color: #3772b0;
+		opacity: .8;
+		z-index: -1;	
+		position: absolute;
+		left: -20px;	
+		top: 20px;
+		transform: rotate(130deg);
+	}
+
+
+
+	.wrapper_main main .photo_baner_wrapper nav{
+		height: 180px;	
+		width: 90vw;
+		position: absolute;
+		bottom: 0;	
+		left: 0;		
+		display: grid;
+		grid-template-columns: auto auto auto auto auto;
+	}
+
+	.wrapper_main main .content_part{
+		background-color: #242424;
+		width: 90vw;
+		min-height: 600px;
+	}
+	.wrapper_main main .content_part .our_services{
+		width: 90vw;
+		height: 230px;
+		margin: 0 auto;
+		display: flex;
+		padding-top: 80px;
+	}
+	.wrapper_main main .content_part .our_services #restavration{
+		border-right: 1px solid #08b9f8;
+		height: 150px;
+		padding-left: 10px;
+		padding-right: 20px;
+	}
+	.wrapper_main main .content_part .our_services #repair{
+		border-right: 1px solid #08b9f8;
+		height: 150px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.wrapper_main main .content_part .our_services #obslugu{
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+
+	iframe{
+		width: 95%;
+		height: 600px;
+	}
+
+	.wrapper_footer{
+		width: 100vw;
+		height: 285px;
+		background-color:#090b0c;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.wrapper_footer footer{
+		width: 90vw;
+		height: 160px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+}
+
+
+
+
+
+
+
+
 
 @media (max-width: 760px){
 	/*----------Header-------*/
@@ -1060,6 +1184,9 @@
 		padding-top: 210px;
 		padding-left: 20px;
 	}
+	main .services_part{
+		height: 4050px;
+	}
 
 
 
@@ -1121,6 +1248,7 @@
 		height: auto;
 		display: block;
 	}
+
 
 
 
@@ -1204,7 +1332,7 @@
 
 	.crankshafts_work, .cylinder_blocks_work, .block_head_work{
 		overflow: hidden;
-		min-height: 700px;
+		min-height: 900px;
 		width: 100%;
 		margin-bottom: 100px;
 		background-color: #2a2b2c;
@@ -1213,15 +1341,27 @@
 	}
 
 
-
+	.about_crankshafts, .about_head_block, .about_cylinder{
+		display: flex;
+		flex-wrap: wrap;
+	}
 	.about_crankshafts img, .about_head_block img, .about_cylinder img{
+		float: left;
+		width: 190px;
+		height: 150px;
+		margin: 0 auto;	
+		margin-left: 0px;
+		margin-bottom: 30px;
+		margin-right: 20px;
+	}
+	/*.about_crankshafts img, .about_head_block img, .about_cylinder img{
 		float: left;
 		width: 190px;
 		height: 150px;
 		margin-left: 0px;
 		margin-bottom: 10px;
 		margin-right: 20px;
-	}
+	}*/
 	.about_crankshafts p, .about_head_block p, .about_cylinder p{
 		width: auto;
 		font-family: 'OpenSans Regular';

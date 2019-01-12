@@ -56,8 +56,23 @@ $("#myform").submit(function(e) {
 					$("#email").val("");
 					$('[name="phone"]').val("");
 					$("#message").val("");
-					$('.success_result').html(data);
-					$('.success_result').style("display = 'block'");
+					$(".success_result").html(data);
+					// setTimeout(() => {
+					// 	$('.success_result').classList.remove('hide');
+					//   $('.success_result').classList.toggle('show');
+				 //  }, 2000);
+					// $('.success_result').classList.toggle('hide');
 				}
 	});
 });
+
+
+// function success(){
+// 	document.getElementsById("success_result").style.visibility = 'hidden';
+	// $('.success_result').html('Helo');
+	// setTimeout(() => {
+	// 	$('.success_result').classList.remove('hide');
+	// 	$('.success_result').classList.toggle('show');
+	// }, 2000);
+	// $(".success_result").classList.toggle('hide');
+// }
